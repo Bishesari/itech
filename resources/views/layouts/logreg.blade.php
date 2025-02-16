@@ -10,10 +10,10 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="flex min-h-screen justify-center sm:items-center items-start bg-slate-100">
-<div class="border sm:mt-0 mt-2">
+<div class="sm:mt-0 mt-2">
     {{ $slot }}
 </div>
-<x-my.bottom-fixed-footer />
+<x-my.bottom-fixed-footer/>
 
 </body>
 </html>

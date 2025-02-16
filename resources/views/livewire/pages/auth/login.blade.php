@@ -24,12 +24,18 @@ new #[Layout('layouts.logreg')] #[Title('ورود به سیستم')] class exten
     }
 }; ?>
 
-<div class="bg-white">
-    <div class="flex justify-center">
+<div>
+    <div class="flex justify-center mb-3">
         <x-my.logo />
     </div>
+    <div class="w-80 flex flex-col bg-white rounded-xl overflow-hidden shadow-lg">
+        <h1 class="text-center bg-rose-100 text-rose-500 py-2 ">{{__('ورود')}}</h1>
+        <form>
+            <p>sadsa</p>
+            <p>sadsa</p>
+            <p>sadsa</p>
 
-    <form class="w-96">
-        asdasd
-    </form>
+        </form>
+    </div>
+
 </div>
