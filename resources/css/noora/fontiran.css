@@ -56,3 +56,47 @@ This set of fonts are used in this project under the license: (.....)
 	font-weight: 800;
 	src: url('Noora-FD-ExtraBold.woff2') format('woff2')
 }
+
+
+@font-face {
+    font-family: Noora_Latin;
+    font-style: normal;
+    font-weight: 200;
+    src: url('Noora-ExtraLight.woff2') format('woff2')
+}
+@font-face {
+    font-family: Noora_Latin;
+    font-style: normal;
+    font-weight: 300;
+    src: url('Noora-Light.woff2') format('woff2')
+}
+@font-face {
+    font-family: Noora_Latin;
+    font-style: normal;
+    font-weight: normal;
+    src: url('Noora-Regular.woff2') format('woff2')
+}
+@font-face {
+    font-family: Noora_Latin;
+    font-style: normal;
+    font-weight: 500;
+    src: url('Noora-Medium.woff2') format('woff2')
+}
+@font-face {
+    font-family: Noora_Latin;
+    font-style: normal;
+    font-weight: 600;
+    src: url('Noora-SemiBold.woff2') format('woff2')
+}
+@font-face {
+    font-family: Noora_Latin;
+    font-style: normal;
+    font-weight: bold;
+    src: url('Noora-Bold.woff2') format('woff2')
+}
+@font-face {
+    font-family: Noora_Latin;
+    font-style: normal;
+    font-weight: 800;
+    src: url('Noora-ExtraBold.woff2') format('woff2')
+}

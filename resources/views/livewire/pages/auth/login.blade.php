@@ -24,6 +24,6 @@ new #[Layout('layouts.logreg')] #[Title('ورود به سیستم')] class exten
     }
 }; ?>
 
-<div>
+<div class="bg-white">
     asdasd
 </div>
