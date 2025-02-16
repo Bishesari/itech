@@ -9,8 +9,8 @@
     <title>{{ config('app.name', 'Laravel') }} {{'|'}} {{$title ?? 'Not Set Yet'}}</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="flex min-h-screen justify-center sm:items-center items-start bg-slate-100">
-<div class="sm:mt-0 mt-2">
+<body class="flex min-h-screen justify-center sm:items-center items-start bg-slate-50">
+<div class="sm:mt-0 mt-4">
     {{ $slot }}
 </div>
 <x-my.bottom-fixed-footer/>
