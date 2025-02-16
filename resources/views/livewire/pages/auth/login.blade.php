@@ -25,5 +25,11 @@ new #[Layout('layouts.logreg')] #[Title('ورود به سیستم')] class exten
 }; ?>
 
 <div class="bg-white">
-    asdasd
+    <div class="flex justify-center">
+        <x-my.logo />
+    </div>
+
+    <form class="w-96">
+        asdasd
+    </form>
 </div>
