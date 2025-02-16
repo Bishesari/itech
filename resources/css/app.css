@@ -1,3 +1,5 @@
+@import "noora/fontiran.css";
+@import "main.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
