@@ -12,7 +12,7 @@
                    focus:outline-none focus:ring-1 focus:text-blue-800 text-slate-600 peer {{$dir}}">
     <label for="{{$name}}"
            class="absolute text-sm text-slate-500 transform duration-200 -right-2 -translate-y-[61px] px-2 bg-white
-
+                   cursor-text
                    peer-placeholder-shown:-translate-y-[36px] peer-placeholder-shown:bg-transparent peer-placeholder-shown:p-0
                    peer-placeholder-shown:right-5
 

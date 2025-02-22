@@ -30,7 +30,7 @@ new #[Layout('layouts.logreg')] #[Title('ورود به سیستم')] class exten
     </div>
     <div class="sm:w-96 w-80 flex flex-col bg-white rounded-lg overflow-hidden border shadow-2xl">
         <!-- Form Header -->
-        <h1 class="text-center border-b bg-gray-100 text-gray-600 py-3 ">{{__('فرم ورود')}}</h1>
+        <h1 class="text-center border-b bg-gray-200 text-gray-600 py-3 ">{{__('فرم ورود')}}</h1>
 
         <!-- Form Body -->
         <form wire:submit="login" class="pt-8 pb-3 px-6">
