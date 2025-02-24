@@ -22,5 +22,18 @@ class PermissionsSeeder extends Seeder
         $SAR = Role::create(['name' => 'Super-Admin']);
         $SAU = User::create(['user_name' => 'Yasser', 'password'=>'Yasser']);
         $SAU->assignRole($SAR);
+        Role::create(['name' => 'Admin']);
+        Role::create(['name' => 'Originator']);
+        Role::create(['name' => 'Manager']);
+        Role::create(['name' => 'Teacher']);
+        Role::create(['name' => 'Assistant']);
+        Role::create(['name' => 'Accountant']);
+        Role::create(['name' => 'Student']);
+        Role::create(['name' => 'JobSeeker']);
+        Role::create(['name' => 'Examiner']);
+        Role::create(['name' => 'NewComer']);
+        Role::create(['name' => 'Marketer']);
+        Role::create(['name' => 'QuestionMaker']);
+        Role::create(['name' => 'QuestionAuditor']);
     }
 }
